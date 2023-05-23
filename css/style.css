@@ -532,9 +532,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 24px;
 }
 .footer-form-input {
-  margin-right: 24px;
+ 
   width: 264px;
   height: 40px;
   padding: 16px 8px;
@@ -666,6 +667,7 @@ footer-form-icon {
 .form-wrapper {
   position: relative;
   margin-bottom: 10px;
+  
 }
 .form-field {
   background: var(--modal-window);
@@ -675,6 +677,8 @@ footer-form-icon {
   height: 40px;
   padding: 0;
   padding-left: 38px;
+  color: var(--main-font-color);
+  font-size: 12px;
 }
 .form-field,
 .form-comment:focus {
@@ -706,7 +710,8 @@ footer-form-icon {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.04em;
-  color: rgba(46, 47, 66, 0.4);
+  color: var(--main-font-color);
+  font-size: 12px;
 }
 .form-agreement {
   display: flex;
@@ -735,6 +740,7 @@ footer-form-icon {
   color: var(--secondary-border-color);
 }
 .form-agreement-link {
+  color: var(--logo-color);
 }
 .form-btn {
   min-width: 169px;
@@ -746,5 +752,5 @@ footer-form-icon {
   border-radius: 4px;
   display: block;
 
-  margin-bottom: 24px;
+
 }
